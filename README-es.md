@@ -6,6 +6,8 @@
 [![Version](https://img.shields.io/badge/version-2.0.0-brightgreen.svg)](https://github.com/sr00t3d/dbcheck/releases)
 [![Bash](https://img.shields.io/badge/Linux-Bash%204.0%2B-4EAA25?logo=gnu-bash&logoColor=white)](dbcheck.sh)
 
+![dbcheck Cover](dbcheck-cover.webp)
+
 **`dbcheck.sh`** es una CLI en Bash + Python 3 stdlib que descubre archivos de configuración de bases de datos en **10 CMS y frameworks PHP**, prueba conexiones MySQL/MariaDB en vivo de forma segura (`MYSQL_PWD`), cuenta tablas, enmascara contraseñas por defecto y exporta reportes `table`, `json` y `csv`.
 
 > **Inspiración Histórica:** Reimplementación limpia inspirada en `DB Checker 3.2` (2013, **Rishwanth Y** / HostGator Migrations).

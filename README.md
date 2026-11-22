@@ -6,6 +6,8 @@
 [![Version](https://img.shields.io/badge/version-2.0.0-brightgreen.svg)](https://github.com/sr00t3d/dbcheck/releases)
 [![Bash](https://img.shields.io/badge/Linux-Bash%204.0%2B-4EAA25?logo=gnu-bash&logoColor=white)](dbcheck.sh)
 
+![dbcheck Cover](dbcheck-cover.webp)
+
 **`dbcheck.sh`** is a zero-dependency Bash + Python 3 stdlib CLI that automatically discovers database configuration files across **10 popular CMS & PHP frameworks**, tests live MySQL/MariaDB connectivity safely (passing passwords via `MYSQL_PWD`, never on the command line), counts tables in each database, masks passwords by default, and exports `table`, `json`, and `csv` reports — ideal for post-migration verification on cPanel/WHM, Plesk, DirectAdmin, or standalone Linux servers.
 
 > **Historical Inspiration:** Clean-room reimplementation inspired by `DB Checker 3.2` (2013, **Rishwanth Y** / HostGator Migrations). Removes the defunct internal `xfermodules.pm` / `dbconnect` Perl dependency, adds modern framework parsers (Laravel `.env`, Magento 2, PrestaShop 1.7/8, Drupal 8–11), hides passwords by default, and exports structured JSON/CSV.
